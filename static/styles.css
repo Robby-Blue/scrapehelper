@@ -1,0 +1,116 @@
+/* general */
+
+body {
+    background-color: rgb(26, 25, 25);
+    color: rgb(247, 242, 242);
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    line-height: 0;
+    margin-bottom: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 0;
+}
+
+.content {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* buttons */
+
+button {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: #0d1117;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 2rem;
+}
+
+.square-button {
+    height: 4rem;
+    width: 4rem;
+}
+
+#submit-button {
+    float: inline-end;
+}
+
+/* code */
+
+.code-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #0d1117;
+    height: fit-content;
+    padding: 5px 10px;
+    font-family: "Consolas", monospace;
+    overflow: auto;
+}
+
+.big-code {
+    font-size: 3rem;
+
+}
+
+span {
+    padding: 0px;
+    white-space: pre;
+}
+
+input {
+    width: min-content;
+    background-color: #0d1117;
+    border: none;
+    color: #a5d6ff;
+    width: 225px;
+    font-size: 3rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.white {
+    color: #e3edf3;
+}
+
+.red {
+    color: #ff7b72;
+}
+
+.string {
+    color: #a5d6ff;
+}
+
+.green {
+    color: #56d364;
+}
+
+.parenthesis {
+    color: #79c0ff;
+}
+
+.orange {
+    color: #ffa657;
+}
+
+.jsonkey {
+    color: #7ee787;
+}
+
+.method {
+    color: #d2a8ff;
+}
