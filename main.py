@@ -21,7 +21,7 @@ def api():
     for key in request.args.keys():
         if key == "url":
             continue
-        headers[key] = request.args.get(key)
+        headers[key] = request.args.get(key).encode("UTF-8")
 
     if url:
         if not url.startswith("http"):
